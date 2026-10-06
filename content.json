@@ -1,0 +1,44 @@
+{
+  "business": {
+    "name": "[YOUR BUSINESS NAME]",
+    "area": "[YOUR AREA]",
+    "tagline": "Hand wash · Interior · Detailing"
+  },
+  "contact": {
+    "phone": "[PHONE NUMBER]",
+    "whatsapp": "[NUMBER WITH COUNTRY CODE, DIGITS ONLY]",
+    "email": "[EMAIL]",
+    "social": "[SOCIAL HANDLE]"
+  },
+  "address": {
+    "line1": "[STREET ADDRESS]",
+    "line2": "[POSTAL CODE]"
+  },
+  "hours": [
+    { "days": "Mon – Fri", "time": "[HOURS]" },
+    { "days": "Sat – Sun", "time": "[HOURS]" }
+  ],
+  "services": [
+    {
+      "name": "Exterior wash",
+      "description": "Foam pre-wash, hand wash, wheels and tyres cleaned, hand dried.",
+      "price": "[PRICE]",
+      "icon": "car",
+      "featured": false
+    },
+    {
+      "name": "Wash & vacuum",
+      "description": "Everything in the exterior wash, plus interior vacuum, dashboard wipe-down and windows inside and out.",
+      "price": "[PRICE]",
+      "icon": "",
+      "featured": true
+    },
+    {
+      "name": "Full detail",
+      "description": "A deep clean inside and out: seats and carpets shampooed, polish and wax for a lasting shine.",
+      "price": "[PRICE]",
+      "icon": "sparkle",
+      "featured": false
+    }
+  ]
+}
