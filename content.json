@@ -1,6 +1,6 @@
 {
   "business": {
-    "name": "[YOUR BUSINESS NAME]",
+    "name": "Rathanapala",
     "area": "[YOUR AREA]",
     "tagline": "hEEEEEiiii   Hand wash · Interior · Detailing"
   },
@@ -15,8 +15,14 @@
     "line2": "[POSTAL CODE]"
   },
   "hours": [
-    { "days": "Mon – Fri", "time": "[HOURS]" },
-    { "days": "Sat – Sun", "time": "[HOURS]" }
+    {
+      "days": "Mon – Fri",
+      "time": "[HOURS]"
+    },
+    {
+      "days": "Sat – Sun",
+      "time": "[HOURS]"
+    }
   ],
   "services": [
     {
