@@ -1,0 +1,57 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "settings"
+    label: "Website Content"
+    files:
+      - name: "content"
+        label: "Website Content"
+        file: "content.json"
+        format: "json"
+
+        fields:
+          - label: "Business"
+            name: "business"
+            widget: "object"
+            fields:
+              - { label: "Business Name", name: "name", widget: "string" }
+              - { label: "Area", name: "area", widget: "string" }
+              - { label: "Tagline", name: "tagline", widget: "string" }
+
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Phone", name: "phone", widget: "string" }
+              - { label: "WhatsApp", name: "whatsapp", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Social Media", name: "social", widget: "string" }
+
+          - label: "Address"
+            name: "address"
+            widget: "object"
+            fields:
+              - { label: "Street Address", name: "line1", widget: "string" }
+              - { label: "Postal Code", name: "line2", widget: "string" }
+
+          - label: "Opening Hours"
+            name: "hours"
+            widget: "list"
+            fields:
+              - { label: "Days", name: "days", widget: "string" }
+              - { label: "Hours", name: "time", widget: "string" }
+
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            fields:
+              - { label: "Service Name", name: "name", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Price", name: "price", widget: "string" }
+              - { label: "Icon", name: "icon", widget: "string", required: false }
+              - { label: "Featured", name: "featured", widget: "boolean", default: false }
